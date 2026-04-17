@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>প্রিমিয়াম প্রোডাক্ট - শপ নাও</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f4f7f6;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 50px auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .product-image {
+            flex: 1;
+            min-width: 300px;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .product-image img {
+            max-width: 100%;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+
+        .product-image img:hover {
+            transform: scale(1.05);
+        }
+
+        .product-details {
+            flex: 1;
+            min-width: 300px;
+            padding: 20px;
+        }
+
+        .product-details h1 {
+            font-size: 28px;
+            color: #2c3e50;
+            margin-bottom: 15px;
+        }
+
+        .price {
+            font-size: 24px;
+            color: #e74c3c;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .description {
+            margin-bottom: 25px;
+            color: #555;
+        }
+
+        .order-btn {
+            display: inline-block;
+            background-color: #0084ff; /* Messenger Blue */
+            color: white;
+            padding: 15px 35px;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 50px;
+            transition: background 0.3s, shadow 0.3s;
+            box-shadow: 0 4px 15px rgba(0, 132, 255, 0.3);
+        }
+
+        .order-btn:hover {
+            background-color: #0066cc;
+            box-shadow: 0 6px 20px rgba(0, 132, 255, 0.5);
+        }
+
+        .features {
+            margin-top: 20px;
+            list-style: none;
+        }
+
+        .features li {
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+
+        .features li::before {
+            content: '✓';
+            color: green;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                margin: 20px;
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="product-image">
+          
+            <img src="product.jpg" alt="Product Image">
+            <p style="font-size: 12px; color: #888; margin-top: 10px;">*অরিজিনাল প্রোডাক্টের ছবি</p>
+        </div>
+
+        <div class="product-details">
+            <h1>প্রিমিয়াম কোয়ালিটি প্রোডাক্ট</h1>
+            <div class="price">মূল্য: ৪৫০ টাকা</div>
+            
+            <p class="description">
+                আমাদের এই প্রোডাক্টটি অত্যন্ত উন্নত মানের এবং টেকসই। বিশেষ অফারে আমরা দিচ্ছি সাশ্রয়ী মূল্যে। স্টোক ফুরিয়ে যাওয়ার আগেই আপনার অর্ডারটি নিশ্চিত করুন।
+            </p>
+
+            <ul class="features">
+                <li>১০০% প্রিমিয়াম কোয়ালিটি</li>
+                <li>দ্রুত ডেলিভারি সুবিধা</li>
+                <li>ক্যাশ অন ডেলিভারি সহজলভ্য</l
+                <li>১০০%ক্যামিকেল ফ্রি</l
+                <li>১০০%ন্যাচারালl
+                <li>কোনো প্রকার সুগন্ধি নেই>
+              <li>১০০%ঘরোয়া উওয়ায়ে এবং ১০০%হাতে তৈরি 
+              
+              
+            </ul>
+
+            <br>
+            
+            <a href="https://www.facebook.com/share/1Dqix3fH2H/" target="_blank" class="order-btn">
+                অর্ডার করতে মেসেজ দিন
+            </a>
+        </div>
+    </div>
+
+</body>
+</html>
